@@ -172,3 +172,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+*.pyc
+*.swp
+*.swo
+*.DS_Store
+*.ipynb_checkpoints
+data/
+test.py
+/myenv
