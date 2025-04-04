@@ -1,6 +1,6 @@
 # chrt.app: A Data Analysis AI Agent
 
-Languages / 语言选择: [English](https://github.com/chrt-app/mvp.streamline) | [中文](https://github.com/chrt-app/mvp.streamline/blob/main/README_CN.md)
+(https://github.com/chrt-app/mvp.streamline) 
 
 **chrt.app 🪄** is a cutting-edge, open-source application powered by Large Language Models (LLMs) designed to revolutionize data analysis. This **Data Analysis Agent** effortlessly automates all the tasks such as data cleaning, preprocessing, and even complex operations like identifying target objects, partitioning test sets, and selecting the best-fit models based on your data. With chrt.app, results visualization and evaluation become seamless.
 
