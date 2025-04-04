@@ -8,23 +8,23 @@ from regression_model import regression_model_pipeline
 from visualization import data_visualization
 from src.util import read_file_from_streamlit
 
-st.set_page_config(page_title="Streamline Analyst", page_icon=":rocket:", layout="wide")
+st.set_page_config(page_title="chrt.app", page_icon=":rocket:", layout="wide")
 
 # TITLE SECTION
 with st.container():
     st.subheader("Hello there 👋")
-    st.title("Welcome to Streamline Analyst!")
+    st.title("Welcome to CHRT Analyst!")
     if 'initialized' not in st.session_state:
         st.session_state.initialized = True
     if st.session_state.initialized:
         st.session_state.welcome_message = welcome_message()
         st.write(stream_data(st.session_state.welcome_message))
         time.sleep(0.5)
-        st.write("[Github > ](https://github.com/Wilson-ZheLin/Streamline-Analyst)")
+        st.write("[Github > ](https://github.com/chrt-app/mvp.streamline)")
         st.session_state.initialized = False
     else:
         st.write(st.session_state.welcome_message)
-        st.write("[Github > ](https://github.com/Wilson-ZheLin/Streamline-Analyst)")
+        st.write("[Github > ](https://github.com/chrt-app/mvp.streamline)")
 
 # INTRO SECTION
 with st.container():
@@ -35,7 +35,7 @@ with st.container():
 
     left_column_r1, right_column_r1 = st.columns([6, 4])
     with left_column_r1:
-        st.header("What can Streamline Analyst do?")
+        st.header("What can chrt Analyst do?")
         st.write(introduction_message()[0])
     with right_column_r1:
         if st.session_state.lottie:
